@@ -327,7 +327,7 @@
         let data = state.raw;
 
         data = data.filter((ele) => {
-            if (ele.stage == '✅ Estimate Scheduled' || ele.stage == '📤 Estimate Sent' || ele.stage == '💲Estimate Approved' || ele.stage == '🤑 Job Scheduled' || ele.stage == '🦇 Job Complete' || ele.stage == '❌ New Lead No Answer') {
+            if (ele.stage == '✅ Estimate Scheduled' || ele.stage == '📤 Estimate Sent' || ele.stage == '💲Estimate Approved' || ele.stage == '🤑 Job Scheduled' || ele.stage == '🦇 Job Complete' || ele.stage == '😕 Answered but not Booked') {
                 return ele
             }
         });
