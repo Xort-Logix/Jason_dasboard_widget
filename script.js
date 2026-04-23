@@ -9,13 +9,13 @@
     const CHART_VERTICAL_PADDING = 160;
 
     const LOST_STAGES = [
-        "Calls",
-        "Contact Forms",
-        "New Lead No Answer",
+        // "Calls",
+        // "Contact Forms",
+        // "New Lead No Answer",
         "Answered but not Booked",
-        "📞 Calls",
-        "📋 Contact Forms",
-        "❌ New Lead No Answer",
+        // "📞 Calls",
+        // "📋 Contact Forms",
+        // "❌ New Lead No Answer",
         "😕 Answered but not Booked"
     ];
 
@@ -25,13 +25,13 @@
         "Estimate Approved",
         "Job Scheduled",
         "Job Complete",
-        "Declined",
+        // "Declined",
         "✅ Estimate Scheduled",
         "📤 Estimate Sent",
         "👍 Estimate Approved",
         "🛠️ Job Scheduled",
         "🏁 Job Complete",
-        "🚫 Declined"
+        // "🚫 Declined"
     ];
 
     const BAR_COLORS = [
